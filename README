@@ -1,0 +1,218 @@
+Defining the Problems
+
+k-SC1S-R
+
+Input:
+A binary matrix M, A parameter k
+
+Question:
+Does there exist a set of rows of size atmost k whose deletion from M, makes M satisy the SC1P.
+
+
+k-SC1S-C
+
+Input:
+A binary matrix M, A parameter k
+
+Question:
+Does there exist a set of columns of size atmost k whose deletion from M, makes M satisy the SC1P.
+
+
+k-SC1S-RC
+
+Input:
+A binary matrix M, A parameter k
+
+Question:
+Does there exist a set of tuples(row/column) of size atmost k whose deletion from M, makes M satisy the SC1P.
+
+
+k-SC1P-1E
+
+Input:
+A binary matrix M, A parameter k
+
+Question:
+Does there exist a set of 1-entries of size atmost k that can be flipped to 0 to make M satisy the SC1P.
+
+
+k-SC1P-0E
+
+Input:
+A binary matrix M, A parameter k
+
+Question:
+Does there exist a set of 0-entries of size atmost k that can be flipped to 1 to make M satisy the SC1P.
+
+
+
+
+Defining the Input-Output Specifications of the programs
+
+k-SC1S-R(2,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row and column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-R
+NO INSTANCE, otherwise
+
+
+k-SC1S-C(2,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row and column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-C
+NO INSTANCE, otherwise
+
+
+k-SC1S-RC(2,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row and column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-RC
+NO INSTANCE, otherwise
+
+
+k-SC1P-1E(2,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row and column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1P-1E
+NO INSTANCE, otherwise
+
+
+k-SC1S-R(2,*).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-R
+NO INSTANCE, otherwise
+
+
+k-SC1S-C(2,*).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-C
+NO INSTANCE, otherwise
+
+
+k-SC1S-RC(2,*).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-RC
+NO INSTANCE, otherwise
+
+
+k-SC1P-1E(2,*).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per row).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1P-1E
+NO INSTANCE, otherwise
+
+
+k-SC1S-R(*,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-R
+NO INSTANCE, otherwise
+
+
+k-SC1S-C(*,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-C
+NO INSTANCE, otherwise
+
+
+k-SC1S-RC(*,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1S-RC
+NO INSTANCE, otherwise
+
+
+k-SC1P-1E(*,2).c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M (M has at most two ones per column).
+
+Output:
+YES INSTANCE, if M satisfies k-SC1P-1E
+NO INSTANCE, otherwise
+
+
+k-SC1P-0E.c
+
+Input:
+A file whose first line contains an integer denoting the value of k, second line
+contains two space separated integers m and n denoting the size of the binary
+matrix M and the next m lines containing n space separated binary digit
+denoting the elements of M.
+
+Output:
+YES INSTANCE, if M satisfies k-SC1P-0E
+NO INSTANCE, otherwise
